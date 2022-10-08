@@ -37,6 +37,7 @@ async function create(projectName, options) {
             )} already exists. Pick an action:`,
             choices: [
               { name: "Overwrite", value: "overwrite" },
+              { name: "Merge", value: "merge" },
               { name: "Cancel", value: false },
             ],
           },
